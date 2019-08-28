@@ -16,7 +16,11 @@ And other demo about ML, such as PCA
 
 - [x] [Spectral clustering](Graph_Serctral_Clustering/Graph_Serctral_Clustering.ipynb)
 
+  ![spectral_clustering_result](Graph_Serctral_Clustering/spectral_clustering_result.png)
+
 - [x] [Graph Convolution for Semi-supervised Clustering of Karate Datasets](GCN_Demo/GCN_Demo.ipynb) From [ICML_2016_Learning Convolutional Neural Networks for Graphs](http://jmlr.org/proceedings/papers/v48/niepert16.pdf)
+
+  ![result](GCN_Demo/result.gif)
 
 - [ ] PointNet
 
