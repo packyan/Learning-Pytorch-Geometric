@@ -18,7 +18,7 @@ And other demo about ML, such as PCA
 
   ![spectral_clustering_result](Graph_Serctral_Clustering/spectral_clustering_result.png)
 
-- [x] [Graph Convolution for Semi-supervised Clustering of Karate Datasets](GCN_Demo/GCN_Demo.ipynb) From [ICML_2016_Learning Convolutional Neural Networks for Graphs](http://jmlr.org/proceedings/papers/v48/niepert16.pdf)
+- [x] [Graph Convolution for Semi-supervised Clustering of Karate Datasets](GCN_Demo/GCN_Demo.ipynb) From [[Semi-Supervised Classification with Graph Convolutional Networks](https://arxiv.org/abs/1609.02907) (ICLR 2017)]
 
   ![result](GCN_Demo/result.gif)
 
