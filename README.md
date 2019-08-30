@@ -22,6 +22,10 @@ And other demo about ML, such as PCA
 
   ![result](GCN_Demo/result.gif)
 
+- [x] [SAGE_Conv](SAGE_Conv\SAGE_Conv.ipynb) 
+
+- [x]  [pytorch_geometric_Message_Passing_test](PyG_test\pytorch_geometric_Message_Passing_test.ipynb) 
+
 - [ ] PointNet
 
   
