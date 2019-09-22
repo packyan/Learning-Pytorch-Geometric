@@ -4,3 +4,15 @@ build/
 __pycache__/
 *.h5
 *.points
+# Windows:
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Python:
+*.py[cod]
+*.so
+*.egg
+*.egg-info
+dist
+build
