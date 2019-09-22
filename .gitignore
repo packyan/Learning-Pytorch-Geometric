@@ -3,3 +3,4 @@ build/
 .ipynb_checkpoints/
 __pycache__/
 *.h5
+*.points
