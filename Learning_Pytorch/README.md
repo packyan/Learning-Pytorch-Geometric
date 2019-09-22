@@ -19,7 +19,7 @@
 
 [多层感知机 MLP](3_9_10_MLP.ipynb)
 
-[模型复杂度、欠拟合、过拟合](3_11_模型选择 欠拟合 过拟合.ipynb)
+[模型复杂度、欠拟合、过拟合](3_11_overfitting.ipynb)
 
 权重衰减 丢弃法 正向传播、反向传播和计算图 数值稳定性 和 模型初始化[可以查看原始 github仓库](https://github.com/ShusenTang/Dive-into-DL-PyTorch)
 
