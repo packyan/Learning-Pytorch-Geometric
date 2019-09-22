@@ -21,7 +21,7 @@
 
 [模型复杂度、欠拟合、过拟合](3_11_模型选择 欠拟合 过拟合.ipynb)
 
-权重衰减 丢弃法 正向传播、反向传播和计算图 数值稳定性和模型初始化 可以查看原始[github仓库]
+权重衰减 丢弃法 正向传播、反向传播和计算图 数值稳定性 和 模型初始化[可以查看原始 github仓库](https://github.com/ShusenTang/Dive-into-DL-PyTorch)
 
 [Kaggle 房价预测](3_16_Kaggle-house-prices.ipynb)
 
@@ -47,7 +47,7 @@
 
 [含并行连结的网络（GoogLeNet）](GoogleLeNet-Inception.ipynb)
 
-[批量归一化](batch normalization.ipynb)
+[批量归一化](batch_normalization.ipynb)
 
 [残差网络（ResNet）](ResNet.ipynb)
 
@@ -63,7 +63,7 @@
 
 ## 模型的评估方法
 
-[ROC曲线 PR曲线 AUC AP mAP等](Interviews/模型评估方法.ipynb)
+[ROC曲线 PR曲线 AUC AP mAP等](Interviews/ROC&PR&AUC&AP&mAP.ipynb)
 
 
 ## Pytorch Gotchas
