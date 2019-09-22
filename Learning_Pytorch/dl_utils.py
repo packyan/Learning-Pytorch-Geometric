@@ -29,6 +29,15 @@ def semilogy(x_vals, y_vals, x_label, y_label, x2_vals=None, y2_vals=None,
         plt.legend(legend)
     # plt.show()
 
+def plotxy(x_vals, y_vals, x_label, y_label, x2_vals=None, y2_vals=None,
+             legend=None, figsize=(3.5, 2.5)):
+    set_figsize(figsize)
+    plt.xlabel(x_label)
+    plt.ylabel(y_label)
+    plt.plot(x_vals,y_vals)
+    if x2_vals.any():
+        plt.plot(x2_vals, y2_vals, linestyle=':')
+        plt.legend(legend)
     
 def linreg(X, w, b):
     return torch.mm(X, w) + b
@@ -179,7 +188,13 @@ class FlattenLayer(nn.Module):
         super(FlattenLayer, self).__init__()
     def forward(self, x): # x shape: (batch, *, *, ...)
         return x.view(x.shape[0], -1)   
-
+    
+    
+def get_data_ch7():  # 本函数已保存在d2lzh_pytorch包中方便以后使用
+    data = np.genfromtxt('data/airfoil_self_noise.dat', delimiter='\t')
+    data = (data - data.mean(axis=0)) / data.std(axis=0)
+    return torch.tensor(data[:1500, :-1], dtype=torch.float32), \
+    torch.tensor(data[:1500, -1], dtype=torch.float32) # 前1500个样本(每个样本5个特征)
         
 if __name__ == '__main__':
     features , labels = data_creater(100,3,[0.3,0.4,0.3],0.1)
