@@ -65,7 +65,7 @@
 
 [Dataloader与h5py文件](Pytorch-basic/DataLoader.ipynb)
 
-[Pandas基础](Data-Preprocessing/10-minutes to pandas.ipynb)
+[Pandas基础](Data-Preprocessing/10-minutes-to-pandas.ipynb)
 
 
 ## 优化算法
