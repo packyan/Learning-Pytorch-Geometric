@@ -6,73 +6,73 @@
 
 ## Pytorch基础部分
 
-[Tensor的基本操作](Pytorch-basic\2_2_Tensor.ipynb)
+[Tensor的基本操作](Pytorch-basic/2_2_Tensor.ipynb)
 
-[自动求导机制 AutoGrad](Pytorch-basic\2_3_AutoGrad.ipynb)
+[自动求导机制 AutoGrad](Pytorch-basic/2_3_AutoGrad.ipynb)
 
 
 ## 机器学习基础部分
 
-[数据预处理sklearn](Machine-Learning-basic\Data-preprocessing.ipynb)
+[数据预处理sklearn](Machine-Learning-basic/Data-preprocessing.ipynb)
 
-[数据降维：PCA 与 核PCA，Kmeans聚类](Machine-Learning-basic\KPCA+PCA+K-means)
+[数据降维：PCA 与 核PCA，Kmeans聚类](Machine-Learning-basic/KPCA+PCA+K-means)
 
-[线性回归](Machine-Learning-basic\3_1_Linear-regression.ipynb)
+[线性回归](Machine-Learning-basic/3_1_Linear-regression.ipynb)
 
-[softmax 回归](Machine-Learning-basic\3_6_7_Softmax.ipynb)
+[softmax 回归](Machine-Learning-basic/3_6_7_Softmax.ipynb)
 
-[多层感知机 MLP](Machine-Learning-basic\3_9_10_MLP.ipynb)
+[多层感知机 MLP](Machine-Learning-basic/3_9_10_MLP.ipynb)
 
-[模型复杂度、欠拟合、过拟合](Machine-Learning-basic\3_11_overfitting.ipynb)
+[模型复杂度、欠拟合、过拟合](Machine-Learning-basic/3_11_overfitting.ipynb)
 
 权重衰减 丢弃法 正向传播、反向传播和计算图 数值稳定性 和 模型初始化[可以查看原始 github仓库](https://github.com/ShusenTang/Dive-into-DL-PyTorch)
 
-[Kaggle 房价预测](Machine-Learning-basic\3_16_Kaggle-house-prices.ipynb)
+[Kaggle 房价预测](Machine-Learning-basic/3_16_Kaggle-house-prices.ipynb)
 
 ## 卷积神经网络基础
 
-[模型构造(如何搭建神经网络模型的结构、模型参数的初始化，访问、共享)](Convolutional-Neural-Networks\4_1_4_Creat_Modules.ipynb)
+[模型构造(如何搭建神经网络模型的结构、模型参数的初始化，访问、共享)](Convolutional-Neural-Networks/4_1_4_Creat_Modules.ipynb)
 
-[储存、读取数据与模型](Convolutional-Neural-Networks\4_5_Save_Load.ipynb)
+[储存、读取数据与模型](Convolutional-Neural-Networks/4_5_Save_Load.ipynb)
 
-[GPU计算](Convolutional-Neural-Networks\4_6_Pytorch_GPU.ipynb)
+[GPU计算](Convolutional-Neural-Networks/4_6_Pytorch_GPU.ipynb)
 
-[卷积层、池化层](Convolutional-Neural-Networks\Convolutional_Neural_Network.ipynb)
+[卷积层、池化层](Convolutional-Neural-Networks/Convolutional_Neural_Network.ipynb)
 
 ## 经典的卷积神经网络模型
 
-[LeNet 第一个手写字符识别卷积神经网络](Classical-CNN-Architecture\LeNet.ipynb)
+[LeNet 第一个手写字符识别卷积神经网络](Classical-CNN-Architecture/LeNet.ipynb)
 
-[AlexNet 深度学习应用于CV领域的开山之作](Classical-CNN-Architecture\AlexNet.ipynb)
+[AlexNet 深度学习应用于CV领域的开山之作](Classical-CNN-Architecture/AlexNet.ipynb)
 
-[使用重复元素的网络（VGG）](Classical-CNN-Architecture\VGG.ipynb)
+[使用重复元素的网络（VGG）](Classical-CNN-Architecture/VGG.ipynb)
 
 网络中的网络（NiN）
 
-[含并行连结的网络（GoogLeNet）](Classical-CNN-Architecture\GoogleLeNet-Inception.ipynb)
+[含并行连结的网络（GoogLeNet）](Classical-CNN-Architecture/GoogleLeNet-Inception.ipynb)
 
-[批量归一化](Classical-CNN-Architecture\batch_normalization.ipynb)
+[批量归一化](Classical-CNN-Architecture/batch_normalization.ipynb)
 
-[残差网络（ResNet）](Classical-CNN-Architecture\ResNet.ipynb)
+[残差网络（ResNet）](Classical-CNN-Architecture/ResNet.ipynb)
 
-[稠密连接网络（DenseNet）](Classical-CNN-Architecture\DenseNet.ipynb)
+[稠密连接网络（DenseNet）](Classical-CNN-Architecture/DenseNet.ipynb)
 
 ## 循环神经网络
 
-[Recurrent-Neural-Networks(GRU LSTM)](Recurrent-Neural-Networks\RNN.ipynb)
+[Recurrent-Neural-Networks(GRU LSTM)](Recurrent-Neural-Networks/RNN.ipynb)
 
 ## 数据载入
 
-[Dataloader与h5py文件](Pytorch-basic\DataLoader.ipynb)
+[Dataloader与h5py文件](Pytorch-basic/DataLoader.ipynb)
 
-[Pandas基础](Data-Preprocessing\10-minutes to pandas.ipynb)
+[Pandas基础](Data-Preprocessing/10-minutes to pandas.ipynb)
 
 
 ## 优化算法
 
-[常见的损失函数](Optimization\Loss_Function.ipynb)
+[常见的损失函数](Optimization/Loss_Function.ipynb)
 
-[优化器](Optimization\Optimizer.ipynb)
+[优化器](Optimization/Optimizer.ipynb)
 
 
 ## 模型的评估方法
@@ -86,4 +86,4 @@
 
 ## 数据可视化
 
-[matplotlib绘图](Visualization\matlib_plot.ipynb)
+[matplotlib绘图](Visualization/matlib_plot.ipynb)
