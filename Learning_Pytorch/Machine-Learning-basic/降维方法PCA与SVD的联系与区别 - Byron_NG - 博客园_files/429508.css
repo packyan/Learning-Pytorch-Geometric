@@ -1,0 +1,318 @@
+body {   
+    font-size: 15.5px;
+}
+.post {
+    background-color: #ffffff;
+    border-radius: 6px 6px 6px 6px;
+    padding: 20px;
+}
+
+#cnblogs_post_body h1 {
+    background: #3f454c;
+    border-radius: 6px 6px 6px 6px;
+    box-shadow: 0px 0px 0px 1px rgb(95, 90, 75), 1px 1px 6px 1px rgba(10, 10, 0, 0.5);
+    color: rgb(255, 255, 255);
+    font-family: "Microsoft Yahei","宋体","黑体",Arial;
+    font-size: 29px;
+    font-weight: bold;
+    height: 25px;
+    line-height: 25px;
+    margin: 1.5em 0 1em !important;
+    padding: 10px 20px;
+    text-shadow: 2px 2px 3px rgb(34, 34, 34);
+}
+#cnblogs_post_body h2 {
+     background: #3f454c;
+    border-radius: 6px 6px 6px 6px;
+    box-shadow: 0px 0px 0px 1px rgb(95, 90, 75), 1px 1px 6px 1px rgba(10, 10, 0, 0.5);
+    color: rgb(255, 255, 255);
+    font-family: "Microsoft Yahei","宋体","黑体",Arial;
+    font-size: 25px;
+    font-weight: bold;
+    height: 25px;
+    line-height: 22px;
+    margin: 1.5em 0 1em !important;
+    padding: 10px 20px;
+    text-shadow: 2px 2px 3px rgb(34, 34, 34);
+}
+#cnblogs_post_body h3 {
+     background: #3f454c;
+    border-radius: 6px 6px 6px 6px;
+    box-shadow: 0px 0px 0px 1px rgb(95, 90, 75), 1px 1px 6px 1px rgba(10, 10, 0, 0.5);
+    color: rgb(255, 255, 255);
+    font-family: "Microsoft Yahei","宋体","黑体",Arial;
+    font-weight: bold;
+    margin: 1.5em 0 1em !important;
+    padding: 10px 20px;
+    text-shadow: 2px 2px 3px rgb(34, 34, 34);
+}
+
+#cnblogs_post_body  h4, h5{
+   background: #3f454c;
+    border-radius: 6px 6px 6px 6px;
+    box-shadow: 0px 0px 0px 1px rgb(95, 90, 75), 1px 1px 6px 1px rgba(10, 10, 0, 0.5);
+    color: rgb(255, 255, 255);
+    font-family: "Microsoft Yahei","宋体","黑体",Arial;
+    font-weight: bold;
+    margin: 1.5em 0 1em !important;
+    padding: 10px 20px;
+    text-shadow: 2px 2px 3px rgb(34, 34, 34);
+}
+
+/*
+整体页面布局
+*/
+#home {  
+    width: 100%;
+}
+
+/* 设置超链接的属性*/
+.postTitle a:link, .postTitle a:visited, .postTitle a:active {
+    color: #333;
+    transition: all 0.4s linear 0s;
+    text-decoration: blink;
+    font-size: 25px;
+}
+.postBody a:link, .postBody a:visited, .postBody a:active {
+    text-decoration: blink;
+}
+/* 博客园 首页 新随笔 所在区域设置*/
+#navigator {
+    font-size: 18px;
+    font-family: "STXingkai" !important;
+}
+
+/* 目录的隐藏目录(显示目录)标签设置*/
+#navigatorTitleDiv
+{
+    padding: 5px;
+    position: fixed;
+    top: 70px;
+    left: 2px;
+    font-weight: bold;
+    cursor :pointer;
+    background-color: #fff;
+}
+/* 目录设置 */
+#navigatorDiv {
+    border-style: none;
+    position: fixed;
+    padding: 05px;
+    padding-top: 5.3%;
+    top: 40px;
+    bottom: 0px;
+    right: 79%;
+    left: 20px;
+    background-color: #fff;
+    font-family: "Monaco" !important;
+    font-size: 15px
+}
+
+/*引用框 样式调整为github*/
+.postBody blockquote{
+  border: none;
+  /*github样式搬过来*/
+  padding: 0 1em;
+  color: #6a737d;
+  border-left: 0.25em solid #dfe2e5;
+  /*隐去默认的引号图片*/
+  background: none;    
+  /*覆盖默认90%*/
+  width: 100%; 
+}
+/*引用框 样式调整为github结束*/
+
+/*每篇文章后边加结束文字*/
+#cnblogs_post_body::after
+{
+    content:"<完>"
+}
+
+/*
+标题栏
+*/
+#blogTitle a {
+    color: #075db3;
+    font-family: "-webkit-pictograph" !important;
+    font-size: 20px;
+}
+
+/*
+正文: 设置博客文章的标题风格
+*/ 
+
+#topics .postTitle {
+    /*font-weight: bold;*/
+    float: left;
+    line-height: 2;
+    padding-left: 5px;
+    font-size: 25px;
+     font-family: "Monaco" !important;
+}
+
+/*
+正文: 设置段落(普通文本)的字体颜色,字体大小, 字体风格 
+*/
+#cnblogs_post_body p {
+    margin: 10px auto;
+    text-indent: 0;
+    margin-right: 13%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.postBody p {
+    line-height: 1.7;
+    color: #000;
+    font-size: 16px;
+    /*font-family: "Helvetica Neue", Helvetica, Arial, sans-serif  !important;*/
+   font-family: "Monaco" !important;
+/*Monaco*/
+}
+.postBody p, .postCon p {
+    margin: 2 auto 5em auto;
+    line-height: 1.8;
+}
+
+#cnblogs_post_body h3,h4,h5,h6{
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+#cnblogs_post_body p code {
+    font-family: "Monaco"!important;
+    font-size: 16px !important;
+    color: #000;
+    background-color: #ccc !important;
+}
+/*.cnblogs-markdown  code {
+    background-color: #eee!important;
+    vertical-align: middle;
+}
+*/
+.cnblogs-markdown .hljs {
+    font-family:  Monaco!important;
+    font-size: 14px!important;
+    line-height: 1.5!important;
+}
+
+/* 设置图片的大小*/
+#cnblogs_post_body img {
+    max-width: 800px;
+    max-high: 600px;
+}
+.code_img_closed {
+    vertical-align: middle;
+    padding-right: 5px;
+}
+
+/*
+
+github.com style (c) Vasily Polovnyov <vast@whiteants.net>
+
+*/
+
+.cnblogs-markdown .hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  color: #333;
+  background: #f8f8f8;
+}
+
+.cnblogs-markdown .hljs-comment,
+.cnblogs-markdown .hljs-quote {
+  color: #998;
+  /*font-style: italic;*/
+}
+
+.cnblogs-markdown .hljs-keyword,
+.cnblogs-markdown .hljs-selector-tag,
+.cnblogs-markdown .hljs-subst {
+  color: #333;
+  /*font-weight: bold;*/
+}
+
+.cnblogs-markdown .hljs-number,
+.cnblogs-markdown .hljs-literal,
+.cnblogs-markdown .hljs-variable,
+.cnblogs-markdown .hljs-template-variable,
+.cnblogs-markdown .hljs-tag .cnblogs-markdown .hljs-attr {
+  color: #008080;
+}
+
+.cnblogs-markdown .hljs-string,
+.cnblogs-markdown .hljs-doctag {
+  color: #d14;
+}
+
+.cnblogs-markdown .hljs-title,
+.cnblogs-markdown .hljs-section,
+.cnblogs-markdown .hljs-selector-id {
+  color: #900;
+  /*font-weight: bold;*/
+}
+
+.cnblogs-markdown .hljs-subst {
+  font-weight: normal;
+}
+#blogTitle h2 {
+    float: left;
+    line-height: 1.5;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 8px 0;
+    color: darkgray;
+}
+.cnblogs-markdown .hljs-type,
+.cnblogs-markdown .hljs-class .cnblogs-markdown .hljs-title {
+  color: #458;
+  /*font-weight: bold;*/
+}
+
+.cnblogs-markdown .hljs-tag,
+.cnblogs-markdown .hljs-name,
+.cnblogs-markdown .hljs-attribute {
+  color: #000080;
+  font-weight: normal;
+}
+
+.cnblogs-markdown .hljs-regexp,
+.cnblogs-markdown .hljs-link {
+  color: #009926;
+}
+
+.cnblogs-markdown .hljs-symbol,
+.cnblogs-markdown .hljs-bullet {
+  color: #990073;
+}
+
+.cnblogs-markdown .hljs-built_in,
+.cnblogs-markdown .hljs-builtin-name {
+  color: #0086b3;
+}
+
+.cnblogs-markdown .hljs-meta {
+  color: #999;
+  /*font-weight: bold;*/
+}
+
+.cnblogs-markdown .hljs-deletion {
+  background: #fdd;
+}
+
+.cnblogs-markdown .hljs-addition {
+  background: #dfd;
+}
+
+.cnblogs-markdown .hljs-emphasis {
+  font-style: italic;
+}
+
+.cnblogs-markdown .hljs-strong {
+  font-weight: bold;
+}
+
+#sideBar {
+    width: 200px;
+    padding-right: 10px;
+    float: none
+}

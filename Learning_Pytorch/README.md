@@ -15,7 +15,9 @@
 
 [数据预处理sklearn](Machine-Learning-basic/Data-preprocessing.ipynb)
 
-[数据降维：PCA 与 核PCA，Kmeans聚类](Machine-Learning-basic/KPCA+PCA+K-means)
+[数据降维：PCA 与 核PCA](Machine-Learning-basic/KPCA+PCA+SVD.ipynb)
+
+[Kmeans，分解聚类](Machine-Learning-basic/Cluster.ipynb)
 
 [线性回归](Machine-Learning-basic/3_1_Linear-regression.ipynb)
 
