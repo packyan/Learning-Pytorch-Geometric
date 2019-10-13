@@ -41,6 +41,10 @@
 
 [卷积层、池化层](Convolutional-Neural-Networks/Convolutional_Neural_Network.ipynb)
 
+[转置卷积-deconv](Convolutional-Neural-Networks/deconv.ipynb)
+
+[空洞卷积-dilated-conv](Convolutional-Neural-Networks/dilated-convolution.ipynb)
+
 ## 经典的卷积神经网络模型
 
 [LeNet 第一个手写字符识别卷积神经网络](Classical-CNN-Architecture/LeNet.ipynb)
