@@ -16,3 +16,6 @@ Desktop.ini
 *.egg-info
 dist
 build
+*.csv
+*.data
+*.DS_Store

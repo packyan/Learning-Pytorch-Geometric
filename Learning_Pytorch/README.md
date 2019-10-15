@@ -11,6 +11,12 @@
 [自动求导机制 AutoGrad](Pytorch-basic/2_3_AutoGrad.ipynb)
 
 
+
+## 数据可视化
+
+[matplotlib绘图](Visualization/matlib_plot.ipynb)
+
+
 ## 机器学习基础部分
 
 [数据预处理sklearn](Machine-Learning-basic/Data-preprocessing.ipynb)
@@ -18,6 +24,9 @@
 [数据降维：PCA 与 核PCA](Machine-Learning-basic/KPCA+PCA+SVD.ipynb)
 
 [Kmeans，分解聚类](Machine-Learning-basic/Cluster.ipynb)
+
+[特征工程](Machine-Learning-basic/Feature-Engineering.ipynb)
+
 
 [线性回归](Machine-Learning-basic/3_1_Linear-regression.ipynb)
 
@@ -67,12 +76,22 @@
 
 [Recurrent-Neural-Networks(GRU LSTM)](Recurrent-Neural-Networks/RNN.ipynb)
 
+
+## 计算机视觉的应用
+
+[数据增强](Computer-Vision/image-augmentation.ipynb)
+
+[Bounding-box](Computer-Vision/Bounding-box.ipynb)
+
+[微调](Computer-Vision/fine-tuning.ipynb)
+
+
+
 ## 数据载入
 
 [Dataloader与h5py文件](Pytorch-basic/DataLoader.ipynb)
 
 [Pandas基础](Data-Preprocessing/10-minutes-to-pandas.ipynb)
-
 
 ## 优化算法
 
@@ -89,7 +108,3 @@
 ## Pytorch Gotchas
 
 [常见的坑](Pytorch_Gotchas.ipynb)
-
-## 数据可视化
-
-[matplotlib绘图](Visualization/matlib_plot.ipynb)
