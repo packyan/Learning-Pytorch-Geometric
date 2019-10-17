@@ -85,7 +85,7 @@
 
 [微调](Computer-Vision/fine-tuning.ipynb)
 
-
+[目标检测入门--SSD](Computer-Vision/a-PyTorch-Tutorial-to-Object-Detection.ipynb)
 
 ## 数据载入
 
